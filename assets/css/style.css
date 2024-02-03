@@ -4,18 +4,19 @@ body {
   color: #fff;
   position: relative;
 }
-/*Destop*/
+/*Desktop*/
 body::before {
   content: "";
   position: fixed;
   background: #040404 url("../img/bg.jpg") center bottom no-repeat;
-  background-size: cover;
+  background-size: 100% 100%; /* Adjusted to cover the entire screen */
   left: 0;
   right: 0;
   top: 0;
-  height: 100vh;
+  bottom: 0; /* Changed height to bottom to cover the entire screen */
   z-index: -1;
 }
+
 /*Mobile*/
 @media (max-width: 767px) {
   body::before {
