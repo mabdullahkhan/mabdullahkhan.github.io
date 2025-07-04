@@ -5,9 +5,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Abdullah Khan</title>
-  <meta content="Portfolio of M. Abdullah Khan, student, researcher, and aspiring electrical engineer." name="description">
-  <meta content="Abdullah Khan, Portfolio, Research, Projects, Robotics, IoT, Bangladesh" name="keywords">
-
+ 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/favicon.png" rel="apple-touch-icon">
@@ -32,7 +30,7 @@
   <header id="header" class="header-tops">
     <div class="container">
       <h1><a href="index.html">M. Abdullah Khan</a></h1>
-      <h2>Aspiring Electrical Engineer &amp;<span> Robotics & IoT Systems Enthusiast</span>.</h2>
+      <h2>Aspiring Electrical Engineer | <span>Robotics & IoT Systems Enthusiast</span>.</h2>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="#header">Home</a></li>
@@ -71,31 +69,45 @@
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Electrical Engineer | Robotics & IoT Systems Enthusiast</h3>
           <p class="font-italic">
-            I am a student and researcher in Electrical & Electronics Engineering at United International University, Bangladesh. My interests include robotics, IoT, and industrial automation. I have published research and led award-winning projects, aiming to contribute to innovative solutions in engineering and technology.
-          </p>
+          I am an Electrical & Electronic Engineering student at United International University, specializing in Electronics with a strong passion for space technology, IoT systems, and industrial automation. My academic journey is complemented by hands-on experience in robotics, embedded systems, and interdisciplinary space projects.          </p>
           <div class="row">
             <div class="col-lg-6">
               <ul>
                 <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 19 August, 2001</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +8801521715781</li>
                 <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Dhaka, Bangladesh</li>
               </ul>
             </div>
             <div class="col-lg-6">
               <ul>
-                <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 23</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Undergraduate</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> <span id="age"></span></li>
+                <script>
+                  document.addEventListener('DOMContentLoaded', function() {
+                  var birthYear = 2001;
+                  var today = new Date();
+                  var age = today.getFullYear() - birthYear;
+                  var birthMonth = 8; // August (0-based index)
+                  var birthDay = 19;
+                  if (
+                    today.getMonth() < birthMonth ||
+                    (today.getMonth() === birthMonth && today.getDate() < birthDay)
+                  ) {
+                    age--;
+                  }
+                  document.getElementById('age').textContent = age;
+                  });
+                </script>
                 <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> mabdullahkhan096@gmail.com</li>
               </ul>
             </div>
           </div>
           <p>
-            I have several valuable skills that I have honed over the years, including content writing, project management, graphics design, public speaking, and proficiency in programming languages. I have applied these skills to both academic and extracurricular activities, including successful projects and competitions. In addition, I am an active volunteer with several leadership roles. I have also held leadership positions within my university clubs and global platforms. I am a member of the International Association of Engineers and have been appointed as an ambassador of the International Space Station National Laboratory starting in 2023.</p>
-        </div>
-      </div>
+            I’ve contributed to international competitions and research initiatives, including the UIU CanSat team (11th globally, AAS CanSat 2024) and the UIU Mars Rover project, ranked top among Asian teams. As part of the SGAC Small Satellite Project Group, I collaborate on research in satellite systems and sustainability. My work has been published in peer-reviewed journals and recognized with honors such as the IEEE R10 Ethics Champion and participation in the NASA Space Apps Challenge. Technically, 
+            I’m skilled in seceral technical and research tools. I also bring experience in front-end development and design using HTML, CSS, JavaScript, Photoshop, and Illustrator. With strong communication and technical writing abilities, I aim to leverage technology for real-world impact and innovation.
+          </p>
+          </div>
     </div>
     <!-- End About Me -->
-
+    <div style="height: 24px;"></div>
     <!-- ======= Counts ======= -->
     <div class="counts container">
       <div class="row">
@@ -139,7 +151,7 @@
       <div class="row skills-content">
         <div class="col-lg-6">
           <div class="progress">
-            <span class="skill">HTML &amp; CSS <i class="val">98%</i></span>
+            <span class="skill">Front-End Development <i class="val">98%</i></span>
             <div class="progress-bar-wrap">
               <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
@@ -159,9 +171,9 @@
         </div>
         <div class="col-lg-6">
           <div class="progress">
-            <span class="skill">Public Speaking <i class="val">85%</i></span>
+            <span class="skill">Public Speaking <i class="val">88%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
           <div class="progress">
@@ -171,9 +183,9 @@
             </div>
           </div>
           <div class="progress">
-            <span class="skill">Electronics <i class="val">75%</i></span>
+            <span class="skill">Electronics <i class="val">85%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
         </div>
@@ -215,7 +227,7 @@
           He works collaboratively with his peers and communicates effectively under pressure, making him an asset to any team or organization.
           <i class="bx bxs-quote-alt-right quote-icon-right"></i>
         </p>
-        <img src="https://ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/1548238919_Rezwan-khan-removebg-preview.png?itok=H1NF9R97" class="testimonial-img" alt="">
+        <img src="https://ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/1548238919_Rezwan-khan-removebg-preview.png?itok=H1NF9R97" class="testimonial-img" alt="" style="aspect-ratio:1/1; object-fit:cover; width:120px; height:120px; border-radius:50%;">
         <h3>Dr. M. Rezwan Khan</h3>
         <h4>Professor Emeritus, Dept. of EEE & Director, IAR</h4>
       </div>
@@ -226,7 +238,7 @@
           He has natural talents in critical thinking, innovative problem-solving, leadership, and teamwork that make him an asset to any future endeavor.
           <i class="bx bxs-quote-alt-right quote-icon-right"></i>
         </p>
-        <img src="https://eee.uiu.ac.bd/wp-content/uploads/sites/6/2023/11/Dr-Intekhab-Alam-240x300.jpg" class="testimonial-img" alt="">
+        <img src="https://eee.uiu.ac.bd/wp-content/uploads/sites/6/2023/11/Dr-Intekhab-Alam-240x300.jpg" class="testimonial-img" alt="" style="aspect-ratio:1/1; object-fit:cover; width:120px; height:120px; border-radius:50%;">
         <h3>Dr. Intekhab Alam</h3>
         <h4>Professor &amp; Former head of the Dept. of EEE, UIU</h4>
       </div>
@@ -244,43 +256,152 @@
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <ul>
-          <li>
-            <strong>Bangladesh's Potential Biomass Energy Resources: A Study to Meet the Nation's Power Demand</strong><br>
-            <strong>Authors:</strong> M. Abdullah Khan, Md Shamsuzzaman<br>
-            <strong>Year:</strong> 2022<br>
-            <strong>Event:</strong> National Research Project Contest 2022, BUP<br>
-            <a href="https://scholar.google.com/scholar?hl=en&q=Bangladesh%27s+Potential+Biomass+Energy+Resources%3A+A+Study+to+Meet+the+Nation%27s+Power+Demand+M.+Abdullah+Khan" target="_blank" class="btn btn-primary btn-sm mt-2">Google Scholar</a>
-          </li>
-          <li class="mt-4">
-            <strong>The Effects of Blue Light Emission from Electronic Devices on Human Sleep Patterns and Health</strong><br>
-            <strong>Author:</strong> M. Abdullah Khan<br>
-            <strong>Year:</strong> 2023<br>
-            <strong>Journal:</strong> International Research Journal of Advanced Engineering and Science<br>
-            <a href="https://irjaes.com/wp-content/uploads/2023/03/IRJAES-V8N1P321Y23.pdf" target="_blank" class="btn btn-primary btn-sm mt-2">Paper Link</a>
-          </li>
-          <li class="mt-4">
-            <strong>Privacy Risks and Challenges in IoT Automation: Analysing Vulnerabilities and Mitigating Strategies for Enhanced Privacy Protection</strong><br>
-            <strong>Author:</strong> M. Abdullah Khan<br>
-            <strong>Year:</strong> 2023<br>
-            <strong>Preprint:</strong> IEEE TechrXiv<br>
-            <a href="https://doi.org/10.36227/techrxiv.23250758.v1" target="_blank" class="btn btn-primary btn-sm mt-2">Paper Link</a>
-          </li>
-          <li class="mt-4">
-            <strong>Bangladesh’s Sustainable Water Production Solutions: An Analysis of Different Methods</strong><br>
-            <strong>Authors:</strong> M. Abdullah Khan, Md Shamsuzzaman, Farhan Labib, Sayma Islam, Mysun Mashira, Abdullah Al-Saad<br>
-            <strong>Year:</strong> 2024<br>
-            <strong>Event:</strong> IEEE Computer Society Bangladesh Chapter<br>
-            <a href="https://scholar.google.com/scholar?hl=en&q=Bangladesh%E2%80%99s+Sustainable+Water+Production+Solutions%3A+An+Analysis+of+Different+Methods+M.+Abdullah+Khan" target="_blank" class="btn btn-primary btn-sm mt-2">Google Scholar</a>
-          </li>
-          <li class="mt-4">
-            <strong>Design and Performance Analysis of a 28 GHz Hexa-slot Antenna for Bangladesh's Emerging Smart Infrastructure in Medical Applications</strong><br>
-            <strong>Author:</strong> M. Abdullah Khan<br>
-            <strong>Year:</strong> 2024<br>
-            <strong>Event:</strong> IEEE Computer Society Bangladesh Chapter<br>
-            <a href="https://s24.ieeecsbdc.org/papers/1-design-and-performance-analysis-of-a-28-ghz-hexa-slot-antenna-for-bangladesh" target="_blank" class="btn btn-primary btn-sm mt-2">Paper Link</a>
-          </li>
-        </ul>
+      <div class="table-responsive mb-5">
+        <table class="table table-bordered table-striped align-middle">
+        <thead class="thead-dark">
+            <tr style="text-align: center; vertical-align: middle;"></tr>
+            <th style="text-align: center; vertical-align: middle;">Paper Type</th>
+            <th style="text-align: center; vertical-align: middle;">Research Paper Title</th>
+            <th style="text-align: center; vertical-align: middle;">Author List</th>
+            <th style="text-align: center; vertical-align: middle;">Published Year</th>
+            <th style="text-align: center; vertical-align: middle;">Issuer Org.</th>
+            <th style="text-align: center; vertical-align: middle;">DOI / Link</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Research Poster</td>
+            <td>Food Quality and Spoilage Detection Using Arduino Gas Sensors</td>
+            <td>M. Abdullah Khan</td>
+            <td>2021</td>
+            <td>Dept of EEE, Green University Bangladesh</td>
+            <td>
+              <a href="https://www.researchgate.net/publication/355699988_Food_Quality_and_Spoilage_Detection_Using_Arduino_Gas_Sensors" target="_blank" class="btn btn-primary btn-sm">ResearchGate</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Research Comp.</td>
+            <td>Microcontroller Based Disaster Management System</td>
+            <td>M. Abdullah Khan, Jerin Nuder Tasheen, Nusrat Jahan Sara</td>
+            <td>2022</td>
+            <td>ResearchGate</td>
+            <td>
+              <a href="https://www.researchgate.net/publication/359296829_Microcontroller_Based_Disaster_Management_System" target="_blank" class="btn btn-primary btn-sm">ResearchGate</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Research Poster</td>
+            <td>Cardiac Disease Alarm System and Prevention using Microcontroller</td>
+            <td>Tahmid Newaz, M. Abdullah Khan, Md Shamsuzzaman</td>
+            <td>2022</td>
+            <td>Department of Biomedical Engineering, MIST</td>
+            <td>
+              <a href="https://www.researchgate.net/publication/370580711_Cardiac_Disease_Alarm_System_and_Prevention_using_Microcontroller" target="_blank" class="btn btn-primary btn-sm">ResearchGate</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Conference Paper</td>
+            <td>Bangladesh's Potential Biomass Energy Resources: A Study to Meet the Nation's Power Demand</td>
+            <td>M. Abdullah Khan, Md Shamsuzzaman</td>
+            <td>2022</td>
+            <td>National Research Project Contest 2022, BUP</td>
+            <td>
+              <a href="https://scholar.google.com/scholar?hl=en&q=Bangladesh%27s+Potential+Biomass+Energy+Resources%3A+A+Study+to+Meet+the+Nation%27s+Power+Demand+M.+Abdullah+Khan" target="_blank" class="btn btn-primary btn-sm">Google Scholar</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Research Poster</td>
+            <td>Submerging Into The Depths Of Iot: Enhancing Underwater Connectivity And Efficiency</td>
+            <td>Mysun Mashira, Sayma Islam, M. Abdullah Khan</td>
+            <td>2023</td>
+            <td>10th International Conference on Networking, Systems and Security</td>
+            <td>
+              <a href="https://www.researchgate.net/publication/377030167_Submerging_Into_The_Depths_Of_Iot_Enhancing_Underwater_Connectivity_And_Efficiency" target="_blank" class="btn btn-primary btn-sm">ResearchGate</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Conference Paper</td>
+            <td>Intelligent pest management in greenhouse agriculture using wireless automated sensing system</td>
+            <td>M. Abdullah Khan, Sayma Islam</td>
+            <td>2023</td>
+            <td>Global Scientific Journals</td>
+            <td>
+              <a href="https://www.researchgate.net/publication/369032760_Intelligent_pest_management_in_greenhouse_agriculture_using_wireless_automated_sensing_system" target="_blank" class="btn btn-primary btn-sm">View Article</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Conference Paper</td>
+            <td>Real-time crop health monitoring and disease diagnosis using wireless sensor network in precision agriculture</td>
+            <td>M. Abdullah Khan, Farhan Labib, Md. Shamsuzzaman</td>
+            <td>2023</td>
+            <td>Global Scientific Journals</td>
+            <td>
+              <a href="https://www.researchgate.net/publication/369084528_Real-time_crop_health_monitoring_and_disease_diagnosis_using_wireless_sensor_network_in_precision_agriculture" target="_blank" class="btn btn-primary btn-sm">View Article</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Conference Paper</td>
+            <td>The Effects of Blue Light Emission from Electronic Devices on Human Sleep Patterns and Health</td>
+            <td>M. Abdullah Khan</td>
+            <td>2023</td>
+            <td>International Research Journal of Advanced Engineering and Science</td>
+            <td>
+              <a href="https://irjaes.com/wp-content/uploads/2023/03/IRJAES-V8N1P321Y23.pdf" target="_blank" class="btn btn-primary btn-sm">Paper Link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Conference Paper</td>
+            <td>Privacy Risks and Challenges in IoT Automation: Analysing Vulnerabilities and Mitigating Strategies for Enhanced Privacy Protection</td>
+            <td>M. Abdullah Khan</td>
+            <td>2023</td>
+            <td>IEEE TechrXiv</td>
+            <td>
+              <a href="https://doi.org/10.36227/techrxiv.23250758.v1" target="_blank" class="btn btn-primary btn-sm">Paper Link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Research Comp.</td>
+            <td>Intelligent Transportation Systems: A Study of Smart Transportation and Logistics Systems</td>
+            <td>M. Abdullah Khan, Md. Shamsuzzaman, Farhan Labib, Provat Kundu Shawon, Sayma Islam</td>
+            <td>2023</td>
+            <td>Workshop on International Conference on Bangabandhu and Digital Bangladesh 2023</td>
+            <td>
+              <!-- No DOI/link provided -->
+            </td>
+          </tr>
+          <tr>
+            <td>Symposium Paper</td>
+            <td>Bangladesh’s Sustainable Water Production Solutions: An Analysis of Different Methods</td>
+            <td>M. Abdullah Khan, Md Shamsuzzaman, Farhan Labib, Sayma Islam, Mysun Mashira, Abdullah Al-Saad</td>
+            <td>2024</td>
+            <td>IEEE Computer Society Bangladesh Chapter</td>
+            <td>
+              <a href="https://scholar.google.com/scholar?hl=en&q=Bangladesh%E2%80%99s+Sustainable+Water+Production+Solutions%3A+An+Analysis+of+Different+Methods+M.+Abdullah+Khan" target="_blank" class="btn btn-primary btn-sm">Google Scholar</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Symposium Paper</td>
+            <td>Design and Performance Analysis of a 28 GHz Hexa-slot Antenna for Bangladesh's Emerging Smart Infrastructure in Medical Applications</td>
+            <td>M. Abdullah Khan</td>
+            <td>2024</td>
+            <td>IEEE Computer Society Bangladesh Chapter</td>
+            <td>
+              <a href="https://s24.ieeecsbdc.org/papers/1-design-and-performance-analysis-of-a-28-ghz-hexa-slot-antenna-for-bangladesh" target="_blank" class="btn btn-primary btn-sm">Paper Link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Research Poster</td>
+            <td>Privacy-Preserving IoT Solutions for Healthcare using Cryptography</td>
+            <td>M. Abdullah Khan, Shiful Islam Shehab, Shamsia Mehzabin Jim</td>
+            <td>2024</td>
+            <td>Dept. of EEE, UIU (EEE DAY 2024)</td>
+            <td>
+              <!-- No DOI/link provided -->
+            </td>
+          </tr>
+        </tbody>
+        </table>
+      </div>
       </div>
     </div>
   </div>
@@ -292,6 +413,7 @@
   <div class="container">
     <div class="section-title">
       <h2>Achievements</h2>
+      <p>Some noteable achievements</p>
     </div>
     <div class="text-center mb-4">
       <div id="achievement-img-container" style="display: inline-block; position: relative;">
@@ -336,13 +458,38 @@
         });
       </script>
     </div>
-    <ul>
-      <li>IEEE R10 Ethics Champion, 2023</li>
-      <li>IEEE Region 10 WIE Pre-University Champion, 2023</li>
-      <li>Champion, EEE DAY 2024 Idea Contest</li>
-      <li>Best Project Award, National Research Project Contest 2022, BUP</li>
-      <!-- Add more achievements -->
-    </ul>
+    <div class="row justify-content-center">
+      <!-- Card 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body text-center">
+            <h5 class="card-title font-weight-bold" style="color:#2c3e50;">IEEE R10 Ethics Champion</h5>
+            <p class="card-text" style="color:#444;">Recognized as the IEEE Region 10 Ethics Champion for outstanding commitment to ethical practices in engineering, 2023.</p>
+            <a href="#" class="btn btn-primary mt-2" target="_blank">See More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body text-center">
+            <h5 class="card-title font-weight-bold" style="color:#2c3e50;">IEEE R10 WIE Pre-University Champion</h5>
+            <p class="card-text" style="color:#444;">Awarded for leadership and impact in IEEE Region 10 Women in Engineering Pre-University initiatives, 2023.</p>
+            <a href="#" class="btn btn-primary mt-2" target="_blank">See More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body text-center">
+            <h5 class="card-title font-weight-bold" style="color:#2c3e50;">Champion, EEE DAY 2024 Idea Contest</h5>
+            <p class="card-text" style="color:#444;">Secured the top position in the EEE DAY 2024 Idea Contest for innovative project solutions.</p>
+            <a href="#" class="btn btn-primary mt-2" target="_blank">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 <!-- End Achievements Section -->
@@ -423,6 +570,15 @@
             </ul>
           </div>
           <div class="resume-item">
+            <h4>Marketing Lead, IEEE Day</h4>
+            <h5>2024 - Present</h5>
+            <p><em>IEEE Day</em></p>
+            <ul>
+              <li>Collaborated with the teams to execute marketing plans.</li>
+              <li>Previously served as Communication Lead in 2024.</li>
+            </ul>
+          </div>
+          <div class="resume-item">
             <h4>For more: <a href="https://drive.google.com/drive/folders/1ohyPNfjyfujZfdq3EVuLc1Ss4t3yxqBU?usp=drive_link">Download CV</a></h4>
           </div>
         </div>
@@ -443,22 +599,23 @@
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-app">University</li>
-            <li data-filter=".filter-card">Arduino</li>
+            <li data-filter=".filter-card">College</li>
             <li data-filter=".filter-web">Robotics</li>
           </ul>
         </div>
       </div>
       <div class="row portfolio-container">
+        <!-- Project 1 -->
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid portfolio-img" alt="UIU Mars Rover 2022">
             <div class="portfolio-info">
               <h4>UIU Mars Rover 2022</h4>
               <p>
                 <strong>Role:</strong> Member<br>
                 <strong>Technologies:</strong> Arduino, C++, Sensors<br>
                 <strong>Description:</strong> Designed and built a Mars Rover prototype for university competition.<br>
-                <strong>Outcome:</strong> Secured 2nd place among 15 teams.
+                <strong>Outcome:</strong> Secured 13th place among 36 global teams.
               </p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="UIU Mars Rover 2022"><i class="bx bx-plus"></i></a>
@@ -467,9 +624,220 @@
             </div>
           </div>
         </div>
+        <!-- Project 2 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/IMG-20240611WA0167.jpg" class="img-fluid portfolio-img" alt="Project 17 Title">
+            <div class="portfolio-info">
+              <h4>UIU ASTRO</h4>
+              <p>The CanSat project from UIU at AAS CanSat Competetion 2024.</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-17.jpg" data-gall="portfolioGallery" class="venobox" title="Project 17"><i class="bx bx-plus"></i></a>
+                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid portfolio-img" alt="Soccer-bot Project">
+            <div class="portfolio-info">
+              <h4>Soccer-bot Project</h4>
+              <p>Project Partner: Tanvir</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="Soccer-bot Project"><i class="bx bx-plus"></i></a>
+                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid portfolio-img" alt="Distance Tracker">
+            <div class="portfolio-info">
+              <h4>Distance Tracker</h4>
+              <p>A distance counter machine</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Distance Tracker"><i class="bx bx-plus"></i></a>
+                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 5 -->
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid portfolio-img" alt="Fire Fighting Bot">
+            <div class="portfolio-info">
+              <h4>Fire Fighting Bot</h4>
+              <p>Car With Defence Fire Suppression Systems.</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Fire Fighting Bot"><i class="bx bx-plus"></i></a>
+                <a href="https://www.researchgate.net/publication/359296829_Microcontroller_Based_Disaster_Management_System" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 6 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid portfolio-img" alt="Heart rate monitor using Arduino">
+            <div class="portfolio-info">
+              <h4>Heart rate monitor using Arduino</h4>
+              <p>Project partner: Prince</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="Heart rate monitor using Arduino"><i class="bx bx-plus"></i></a>
+                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 7 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid portfolio-img" alt="Helmet for blind">
+            <div class="portfolio-info">
+              <h4>Helmet for blind</h4>
+              <p>Project partner: Saif</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Helmet for blind"><i class="bx bx-plus"></i></a>
+                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 8 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid portfolio-img" alt="Smart Highway System">
+            <div class="portfolio-info">
+              <h4>Smart Highway System</h4>
+              <p>Project partner: Saif</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Smart Highway System"><i class="bx bx-plus"></i></a>
+                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 9 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid portfolio-img" alt="Solar Car">
+            <div class="portfolio-info">
+              <h4>Solar Car</h4>
+              <p>Dual axis solar tracker car</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Solar Car"><i class="bx bx-plus"></i></a>
+                <a href="https://www.linkedin.com/posts/m-abdullahkhan_electronics-energy-renewableenergy-activity-6943486290218614784-b5bC?utm_source=share&utm_medium=member_desktop" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 10 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-10.jpg" class="img-fluid portfolio-img" alt="Project 10 Title">
+            <div class="portfolio-info">
+              <h4>Bio-gas for electricity</h4>
+              <p>We all are quite known to bio-gas. But many of us don't know that bio-gas can be used for generating electricity a well. And that is what our project is all about. This one is the last project of my school life, and our team was the winner of the competition.</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-10.jpg" data-gall="portfolioGallery" class="venobox" title="Project 10"><i class="bx bx-plus"></i></a>
+                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 11 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-11.jpg" class="img-fluid portfolio-img" alt="Project 11 Title">
+            <div class="portfolio-info">
+              <h4>Gas Detection Using ESP32 and Fire Alarm</h4>
+              <p>This project is done using ESP32 and Gas sensors.</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-11.jpg" data-gall="portfolioGallery" class="venobox" title="Project 11"><i class="bx bx-plus"></i></a>
+                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 12 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-12.jpg" class="img-fluid portfolio-img" alt="Project 12 Title">
+            <div class="portfolio-info">
+              <h4>IoT Based Dual Axis Solar Management System</h4>
+              <p>Project partners are showing here.</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-12.jpg" data-gall="portfolioGallery" class="venobox" title="Project 12"><i class="bx bx-plus"></i></a>
+                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 13 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-13.jpg" class="img-fluid portfolio-img" alt="Project 13 Title">
+            <div class="portfolio-info">
+              <h4>Air Monitoring using ESP8266 +ST7735</h4>
+              <p>Project 13 description goes here.</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-13.jpg" data-gall="portfolioGallery" class="venobox" title="Project 13"><i class="bx bx-plus"></i></a>
+                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 14 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-14.jpg" class="img-fluid portfolio-img" alt="Project 14 Title">
+            <div class="portfolio-info">
+              <h4>Line Following Car using ESP32 & 5IR Array</h4>
+              <p>Project 14 description goes here.</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-14.jpg" data-gall="portfolioGallery" class="venobox" title="Project 14"><i class="bx bx-plus"></i></a>
+                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 15 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-15.jpg" class="img-fluid portfolio-img" alt="Project 15 Title">
+            <div class="portfolio-info">
+              <h4>LoRa Network System with Nano and ESP32.</h4>
+              <p>Project 15 description goes here.</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-15.jpg" data-gall="portfolioGallery" class="venobox" title="Project 15"><i class="bx bx-plus"></i></a>
+                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 16 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-16.jpg" class="img-fluid portfolio-img" alt="Project 16 Title">
+            <div class="portfolio-info">
+              <h4>UIU ASCEND</h4>
+              <p>UIU CanSat team for 2025.</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-16.jpg" data-gall="portfolioGallery" class="venobox" title="Project 16"><i class="bx bx-plus"></i></a>
+                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 17 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid portfolio-img" alt="Staircase Robot">
             <div class="portfolio-info">
               <h4>Staircase Robot</h4>
               <p>
@@ -483,101 +851,63 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Soccer-bot Project</h4>
-              <p>Project Partner: Tanvir</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Distance Tracker</h4>
-              <p>A distance counter machine</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Project 18 -->
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/portfolio-18.jpg" class="img-fluid portfolio-img" alt="Project 18 Title">
             <div class="portfolio-info">
-              <h4>Fire Fighting Bot</h4>
-              <p>Car With Defence Fire Suppression Systems.</p>
+              <h4>Project 18 Title</h4>
+              <p>Project 18 description goes here.</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="https://www.researchgate.net/publication/359296829_Microcontroller_Based_Disaster_Management_System" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Heart rate monitor using Arduino</h4>
-              <p>Project partner: Prince</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/portfolio-18.jpg" data-gall="portfolioGallery" class="venobox" title="Project 18"><i class="bx bx-plus"></i></a>
                 <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Helmet for blind</h4>
-              <p>Project partner: Saif</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Smart Highway System</h4>
-              <p>Project partner: Saif</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="#" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Solar Car</h4>
-              <p>Dual axis solar tracker car</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="https://www.linkedin.com/posts/m-abdullahkhan_electronics-energy-renewableenergy-activity-6943486290218614784-b5bC?utm_source=share&utm_medium=member_desktop" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
+        </div>     
       </div>
     </div>
   </section>
-  <!-- End Projects Section -->
+  <style>
+    .portfolio-img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 8px 8px 0 0;
+      background: #f8f9fa;
+      display: block;
+    }
+    .portfolio-wrap {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 16px rgba(44,62,80,0.08);
+      margin-bottom: 30px;
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .portfolio-info {
+      padding: 18px 16px 12px 16px;
+      flex: 1 1 auto;
+    }
+    .portfolio-links {
+      margin-top: 10px;
+    }
+    @media (max-width: 991.98px) {
+      .portfolio-img {
+        height: 180px;
+      }
+    }
+    @media (max-width: 767.98px) {
+      .portfolio-img {
+        height: 140px;
+      }
+    }
+  </style>
+  <!-- End Projects Section --></div>
 
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">

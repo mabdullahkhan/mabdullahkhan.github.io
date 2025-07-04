@@ -1136,6 +1136,51 @@ section .container {
   }
 }
 
+/*--------  Research Section */
+.research .table {
+  color: #fff !important;
+  background-color: transparent;
+}
+
+.research .table th {
+  color: #fff !important;
+  background-color: rgba(24, 210, 110, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  font-weight: 600;
+}
+
+.research .table td {
+  color: #fff !important;
+  border-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.research .table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.research .table-bordered {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.research .btn-primary {
+  background-color: #18d26e;
+  border-color: #18d26e;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 12px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.research .btn-primary:hover {
+  background-color: #35e888;
+  border-color: #35e888;
+  color: #fff;
+  text-decoration: none;
+}
+
 /*--------------------------------------------------------------
 # Credits
 --------------------------------------------------------------*/
